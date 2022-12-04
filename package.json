@@ -1,32 +1,23 @@
 {
-  "name": "@uniswap/default-token-list",
-  "version": "5.2.0",
-  "description": "◦ The Uniswap default token list",
-  "main": "build/uniswap-default.tokenlist.json",
+  "name": "nft-list",
+  "version": "1.0.0",
+  "description": "The default NFT list",
+  "main": "build/default.nftlist.json",
   "scripts": {
     "test": "mocha",
-    "build": "rimraf build && mkdir -p build && node src/write.js > build/uniswap-default.tokenlist.json",
+    "build": "rimraf build && mkdir -p build && node src/write.js > build/default.nftlist.json",
     "prepublishOnly": "npm test && npm run build"
   },
   "files": [
-    "build/uniswap-default.tokenlist.json"
+    "build/default.nftlist.json"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Uniswap/default-token-list.git"
-  },
   "keywords": [
-    "uniswap",
+    "nft",
     "default",
     "token",
     "list"
   ],
-  "author": "Moody Salem",
   "license": "GPL-3.0-or-later",
-  "bugs": {
-    "url": "https://github.com/Uniswap/default-token-list/issues"
-  },
-  "homepage": "https://github.com/Uniswap/default-token-list#readme",
   "devDependencies": {
     "@ethersproject/address": "^5.0.2",
     "@uniswap/token-lists": "^1.0.0-beta.29",
