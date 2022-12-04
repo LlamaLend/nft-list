@@ -8,11 +8,10 @@ const polygon = require("./tokens/polygon.json");
 const mumbai = require("./tokens/mumbai.json");
 const optimism = require("./tokens/optimism.json");
 const celo = require("./tokens/celo.json");
-const bridgeUtils = require('@uniswap/token-list-bridge-utils');
 
 module.exports = function buildList() {
   const parsed = version.split(".");
-  const l1List = {
+  return {
     name: "Uniswap Labs Default",
     timestamp: new Date().toISOString(),
     version: {
@@ -32,5 +31,4 @@ module.exports = function buildList() {
         return t1.chainId < t2.chainId ? -1 : 1;
       }),
   };
-  return bridgeUtils.chainify(l1List);
 };
