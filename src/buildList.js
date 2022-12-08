@@ -1,5 +1,5 @@
 const { version } = require("../package.json");
-const mainnet = require("./tokens/mainnet.json");
+const eth = require("./tokens/eth.json");
 
 module.exports = function buildList() {
   const parsed = version.split(".");
@@ -14,7 +14,7 @@ module.exports = function buildList() {
     tags: {},
     logoURI: "ipfs://QmNa8mQkrNKp1WEEeGjFezDmDeodkWRevGFN8JCV7b4Xir",
     keywords: ["nft", "default"],
-    tokens: [...mainnet]
+    tokens: [...eth]
       // sort them by symbol for easy readability
       .sort((t1, t2) => {
         if (t1.chainId === t2.chainId) {
