@@ -12,7 +12,7 @@ module.exports = function buildList() {
       patch: +parsed[2],
     },
     tags: {},
-    logoURI: "ipfs://QmNa8mQkrNKp1WEEeGjFezDmDeodkWRevGFN8JCV7b4Xir",
+    logoURI: "ipfs://QmdyoQkU6iZ2TRjWoD8usCK9YZb2UBBxBj7CQfQ6JLUbZM",
     keywords: ["nft", "default"],
     tokens: [...eth]
       // sort them by symbol for easy readability
