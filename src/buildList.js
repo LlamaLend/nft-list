@@ -1,5 +1,5 @@
 const { version } = require("../package.json");
-const eth = require("./tokens/eth.json");
+const eth = require("./tokens/1.json");
 
 module.exports = function buildList() {
   const parsed = version.split(".");
