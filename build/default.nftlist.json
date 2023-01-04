@@ -1,10 +1,10 @@
 {
   "name": "NFT Default",
-  "timestamp": "2022-12-13T01:17:49.325Z",
+  "timestamp": "2023-01-04T14:50:53.012Z",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 0
+    "patch": 1
   },
   "tags": {},
   "logoURI": "ipfs://QmdyoQkU6iZ2TRjWoD8usCK9YZb2UBBxBj7CQfQ6JLUbZM",
@@ -89,6 +89,13 @@
       "symbol": "BOOK",
       "chainId": 1,
       "logoURI": "https://i.seadn.io/gcs/files/ff62dd4e9b27dee15e7ac89307a917b5.png"
+    },
+    {
+      "name": "Chubbiverse Frens",
+      "address": "0x42f1654B8eeB80C96471451B1106b63D0B1a9fe1",
+      "symbol": "CHF",
+      "chainId": 1,
+      "logoURI": "https://i.seadn.io/gae/YcB7nLPfOlmsF9l5milmw4T6nAEufqPZxfHwTDNPs_gJGYsIogQuJCHRDcBtxeaaQgB4eJO87OZHBkXJg1QYwPOLUqf94z-LzxrmLg"
     },
     {
       "name": "CLONE X",
